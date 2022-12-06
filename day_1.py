@@ -69,7 +69,8 @@ def topThree(lst):
 
 
 with open('data.txt', "r") as myfile:
-    data = myfile.read().splitlines()
-    largest_sum = topThree(data)
-    print(largest_sum)
+    data = myfile.read().splitlines(True)
+    print(data)
+    # largest_sum = topThree(data)
+    # print(largest_sum)
     
